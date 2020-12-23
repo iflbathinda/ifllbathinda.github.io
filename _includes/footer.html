@@ -1,0 +1,29 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright" style="font-size: larger; font-size: larger;">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                    <span class="copyright" style="font-size: larger; font-size: larger;">Made With Love By <a href="https://www.linkedin.com/in/anubhav-gupta-6b87711b0/">Anubhav Gupta</a></span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <address style="font-size: larger; text-emphasis: circle;">
+                        <b>First floor Mehta computers ,street no 17 .ajit road, BTI
+                            9417269093 , 8054420536</b> </address>
+                    <!-- <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </footer>
