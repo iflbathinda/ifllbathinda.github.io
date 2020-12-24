@@ -135,9 +135,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: black;
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #FF0000;
 }
 
 .btn-xl:active,
@@ -161,12 +161,13 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: black;
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-xl .badge {
-    color: #{{ site.data.template.color.primary }};
+    color: #FF0000;
+    /* color: #{{ site.data.template.color.primary }}; */
     background-color: #fff;
 }
 
@@ -269,7 +270,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');   
+    background-image: url('{{ site.baseurl }}/img/bg-flight.jpg');   
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -659,7 +660,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/bg-contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }

@@ -1,48 +1,64 @@
----
-title: Institute of Foriegn Language
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 url: https://y7kim.github.io
-baseurl: https://iflbathinda.in/
+baseurl: 
+# Site settings
+title: Institute of Foriegn Language
 email: iflbathinda@gmail.com
-description: IFL( Institute of Foreign Language) - The Complete English Institute,
-  specifically To prepare students for IELTS and Spoken English.
+description: "IFL( Institute of Foreign Language) - The Complete English Institute, specifically To prepare students for IELTS and Spoken English."
+
+
+# Team names, titles and social links
 people:
 - name: Bhavana Bhatti
   pic: 1
   position: Faculty member
   social:
-  - title: twitter
-    url: 
-  - title: facebook
-    url: 
-  - title: stack-overflow
-    url: 
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
 - name: Puninder Gill
   pic: 2
   position: Faculty Member
   social:
-  - title: twitter
-    url: 
-  - title: facebook
-    url: 
-  - title: linkedin
-    url: 
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+# - name: Diana Petersen
+#   pic: 3
+#   position: Lead Developer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: google-plus
+#       url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-- title: instagram
-  url: https://www.instagram.com/ifl_institute/
-- title: facebook
-  url: https://www.facebook.com/IFLIELTSBATHINDA
-- title: youtube
-  url: https://www.youtube.com/channel/UCDe37_oFKHxcd2JRpDnk__A
+  - title: instagram
+    url: https://www.instagram.com/ifl_institute/
+  - title: facebook
+    url: https://www.facebook.com/IFLIELTSBATHINDA
+  - title: youtube
+    url: https://www.youtube.com/channel/UCDe37_oFKHxcd2JRpDnk__A
+  # - title: bitbucket 
+  #   url: http://bitbucket.org/jekyll
+  # - title: github
+  #   url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
 address:
-- line: First floor Mehta computers ,street no. 17 .ajit road, BTI
-- line: 9417269093 , 8054420536
+  - line: First floor Mehta computers ,street no. 17 .ajit road, BTI
+  - line: 9417269093 , 8054420536
+
+# Build settings
 markdown: kramdown
 permalink: pretty
