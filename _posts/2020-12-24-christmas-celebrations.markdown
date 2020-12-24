@@ -7,10 +7,10 @@ tags:
 - '2020'
 subtitle: Christmas Celebration
 modal-id: 7
-thumbnail: 
+thumbnail: Photo.png
 description: Christmas celebrations at IFL bathinda
 img: Photo.png
-alt: 
+alt: christmas photo
 author: Anubhav Gupta
 project-date: 2020-12-24 00:00:00 Z
 ---
